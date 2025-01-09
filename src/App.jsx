@@ -29,10 +29,10 @@ function App() {
 
     </div>
       <div className="d-flex justify-content-center align-items-center">
-        <div className="row d-flex justify-content-center align-items-center">
+        <div className="row d-md-flex  d-sm-flex justify-content-md-center  justify-content-sm-center align-items-md-center align-items-sm-center">
 
           {posts.map((post) => (
-            <div className="col-md-4 m-4 " key={post.id}>
+            <div className="col-md-4 m-4 col-sm-12 " key={post.id}>
 
               <div className="card h-100  text-bg-warning border-dark">
                 <div className="card-body">
